@@ -8,7 +8,7 @@ void nuskaitymas(const char* failas, unordered_map<string, vector<int>>& zodziai
         istringstream iss(eilute);
         string input;
         while(iss >> input){
-		    string zodis = suvienodinimas(input);
+		    string zodis = suvienodinimas(input, 0);
 		    if (!zodis.empty()) {
 			    zodziaiKiekis[zodis].push_back(eilNr);
 		    }
@@ -18,10 +18,12 @@ void nuskaitymas(const char* failas, unordered_map<string, vector<int>>& zodziai
     in.close();
 }
 
-string suvienodinimas(const string& zodis) {
+string suvienodinimas(const string& zodis, const bool& url) {
 	string suvienodintasZodis = "";
 	for (const char& ch : zodis) {
-		if (!ispunct(ch))
+		if(url && ch == '/')
+            return suvienodintasZodis;
+        if (!ispunct(ch))
 			suvienodintasZodis += tolower(ch);
 	}
 	return suvienodintasZodis;
