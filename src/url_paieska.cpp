@@ -32,6 +32,10 @@ void urlIsvedimas(const string& urlFailas, const string& outputFailas, unordered
     ofstream out(outputFailas);
     string zodis;
     while(in >> zodis){
+        while (!zodis.empty() && !isalnum(zodis.back()) && zodis.back() != '/')
+            zodis.pop_back();
+        while (!zodis.empty() && !isalnum(zodis.front()))
+            zodis.erase(0, 1);
         string tld = rastiTLD(zodis);
         if(TLD.count(tld)) out << zodis << endl;
     }
