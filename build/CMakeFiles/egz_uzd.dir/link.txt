@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/egz_uzd.dir/src/main.cpp.o CMakeFiles/egz_uzd.dir/src/apdorojimas.cpp.o -o egz_uzd 

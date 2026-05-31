@@ -1,1 +1,1 @@
-#Egzamino išsankstinė užduotis
+# Egzamino išsankstinė užduotis
