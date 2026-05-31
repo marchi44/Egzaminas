@@ -1,0 +1,28 @@
+#ifndef MYLIB_H
+#define MYLIB_H
+
+#include <iostream>
+#include <unordered_map>
+#include <string>
+#include <fstream>
+#include <iomanip>
+#include <cctype>
+#include <vector>
+#include <sstream>
+
+using std::cout;
+using std::cin;
+using std::endl;
+using std::unordered_map;
+using std::ifstream;
+using std::ofstream;
+using std::string;
+using std::tolower;
+using std::ispunct;
+using std::getline;
+using std::vector;
+using std::istringstream;
+
+#include "funkcijos.h"
+
+#endif

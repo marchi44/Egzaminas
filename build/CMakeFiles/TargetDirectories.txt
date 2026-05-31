@@ -1,0 +1,3 @@
+/home/mmarc/egzaminas/build/CMakeFiles/egz_uzd.dir
+/home/mmarc/egzaminas/build/CMakeFiles/edit_cache.dir
+/home/mmarc/egzaminas/build/CMakeFiles/rebuild_cache.dir

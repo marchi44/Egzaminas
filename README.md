@@ -1,0 +1,1 @@
+#Egzamino išsankstinė užduotis
