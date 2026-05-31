@@ -9,6 +9,7 @@
 #include <cctype>
 #include <vector>
 #include <sstream>
+#include <set>
 
 using std::cout;
 using std::cin;
@@ -22,6 +23,7 @@ using std::ispunct;
 using std::getline;
 using std::vector;
 using std::istringstream;
+using std::set;
 
 #include "funkcijos.h"
 

@@ -9,5 +9,5 @@ if (POLICY CMP0141)
   set(CMAKE_MSVC_DEBUG_INFORMATION_FORMAT "$<IF:$<AND:$<C_COMPILER_ID:MSVC>,$<CXX_COMPILER_ID:MSVC>>,$<$<CONFIG:Debug,RelWithDebInfo>:EditAndContinue>,$<$<CONFIG:Debug,RelWithDebInfo>:ProgramDatabase>>")
 endif()
 
-add_executable (egz_uzd "src/main.cpp" "src/apdorojimas.cpp")
+add_executable (egz_uzd "src/main.cpp" "src/apdorojimas.cpp" "src/url_paieska.cpp")
 target_include_directories(egz_uzd PRIVATE include)

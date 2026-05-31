@@ -1,6 +1,6 @@
 #include "mylib.h"
 
-void nuskaitymas(const char* failas, unordered_map<string, vector<int>>& zodziaiKiekis) {
+void nuskaitymas(const string& failas, unordered_map<string, vector<int>>& zodziaiKiekis) {
 	ifstream in(failas);
 	string eilute;
     int eilNr = 1;
