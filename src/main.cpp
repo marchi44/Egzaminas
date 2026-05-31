@@ -6,7 +6,9 @@ int main()
 	nuskaitymas("tekstas.txt", zodziaiKiekis);
 	isvedimas(zodziaiKiekis);
 
-    set<string>TLD;
+    unordered_set<string>TLD;
     nuskaitymasTLD("TLD.txt", TLD);
+    urlIsvedimas("tekstas_su_url.txt", "url.txt", TLD);
+
 	return 0;
 }

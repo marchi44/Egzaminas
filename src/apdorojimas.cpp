@@ -2,6 +2,7 @@
 
 void nuskaitymas(const string& failas, unordered_map<string, vector<int>>& zodziaiKiekis) {
 	ifstream in(failas);
+    if(!in) std::cerr << "Nepavyko atidaryti failo!\n";
 	string eilute;
     int eilNr = 1;
 	while (getline(in, eilute)) {
@@ -21,8 +22,6 @@ void nuskaitymas(const string& failas, unordered_map<string, vector<int>>& zodzi
 string suvienodinimas(const string& zodis, const bool& url) {
 	string suvienodintasZodis = "";
 	for (const char& ch : zodis) {
-		if(url && ch == '/')
-            return suvienodintasZodis;
         if (!ispunct(ch))
 			suvienodintasZodis += tolower(ch);
 	}
@@ -31,12 +30,12 @@ string suvienodinimas(const string& zodis, const bool& url) {
 
 void isvedimas(unordered_map<string, vector<int>>& zodziaiKiekis){
     ofstream out("output.txt");
-    out << "Žodis                 | Eilutės | Kiek kartų\n";
-    out << "----------------------|---------|-----------\n";
+    out << "Žodis                 | Kiek kartų | Eilutės \n";
+    out << "----------------------|------------|---------\n";
     
    for (const auto& [zodis, eilutes] : zodziaiKiekis) {
     if (eilutes.size() > 1) {
-        out << std::left << std::setw(22) << zodis << "| ";
+        out << std::left << std::setw(22) << zodis << "| " << std::setw(12) << eilutes.size() << "| ";
         
         string eilutesStr;
         for (int i = 0; i < (int)eilutes.size(); i++) {
@@ -44,7 +43,7 @@ void isvedimas(unordered_map<string, vector<int>>& zodziaiKiekis){
             if (i < (int)eilutes.size() - 1) eilutesStr += ", ";
         }
         
-        out << std::setw(8) << eilutesStr << "| " << eilutes.size() << "\n";
+        out << eilutesStr << "\n";
     }
 }
     out.close();

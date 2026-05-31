@@ -1,0 +1,81 @@
+Vilniaus universitetas yra vienas seniausių ir prestižiškiausių universitetų
+Lietuvoje bei visoje Baltijos regione. Universitetas buvo įkurtas 1579 metais
+ir per šimtmečius išaugo į didelę mokslo ir kultūros instituciją. Studijų
+programos apima daugybę sričių, pradedant humanitariniais mokslais ir baigiant
+tiksliaisiais bei technologijų mokslais. Kiekvienais metais universitetas
+priima tūkstančius naujų studentų iš visos Lietuvos ir užsienio šalių.
+
+Matematikos ir informatikos fakultetas yra vienas populiariausių fakultetų
+tarp stojančiųjų. Informatikos studijos apima daug skirtingų sričių, pradedant
+programavimu ir baigiant dirbtinio intelekto tyrimais. Studentai mokosi
+algoritmų, duomenų struktūrų, operacinių sistemų ir daugelio kitų dalykų.
+Pirmaisiais studijų metais dažniausiai dėstoma C++ ir Python kalbos, vėliau
+pridedamos Java, SQL ir kitos technologijos. Laboratoriniai darbai padeda
+studentams įtvirtinti teorines žinias praktiškai.
+
+Programavimas šiuolaikiniame pasaulyje tapo vienu svarbiausių įgūdžių.
+Daugelis įmonių ieško kvalifikuotų programuotojų, mokančių dirbti su
+moderniais įrankiais ir technologijomis. Geras programuotojas turi mokėti
+ne tik rašyti kodą, bet ir spręsti problemas, dirbti komandoje bei nuolat
+mokytis naujų dalykų. Technologijų pasaulis keičiasi labai greitai, todėl
+svarbu neatsilikti nuo naujausių tendencijų.
+
+Lietuvos technologijų ekosistema pastaruoju metu sparčiai auga. Daugelis
+startuolių ir technologijų įmonių kuria savo biurus Vilniuje ir Kaune.
+Vilnius tapo vienu patraukliausių miestų technologijų specialistams visoje
+Europos Sąjungoje. Miestas siūlo puikias gyvenimo sąlygas, konkurencingas
+algas bei įdomias karjeros galimybes. Daugelis užsienio investuotojų atkreipė
+dėmesį į Lietuvos technologijų sektorių ir aktyviai investuoja į šalies
+įmones bei startuolius.
+
+Studijuojant informacines sistemas svarbu mokytis ne tik teorijos bet ir
+praktikos. Praktiniai projektai padeda suprasti kaip teorinės žinios
+taikomos realiame pasaulyje. Daugelis studentų pradeda nuo paprastų projektų
+ir palaipsniui pereina prie sudėtingesnių užduočių. Komandiniai projektai
+ypač naudingi nes moko bendrauti su kolegomis, dalintis atsakomybe ir
+spręsti nesutarimus konstruktyviai.
+
+Duomenų bazės yra neatsiejama šiuolaikinių programų dalis. SQL kalba leidžia
+efektyviai saugoti, ieškoti ir apdoroti didelius duomenų kiekius. Reliacinės
+duomenų bazės naudojamos beveik visur, pradedant mažais projektais ir baigiant
+didelėmis korporatyvinėmis sistemomis. PostgreSQL ir MySQL yra labiausiai
+paplitusios atvirojo kodo duomenų bazių valdymo sistemos. Studentai dažniausiai
+pirmiausia susipažįsta su SQL pagrindais, vėliau pereina prie sudėtingesnių
+užklausų ir optimizavimo technikų.
+
+Algoritmai ir duomenų struktūros yra kompiuterių mokslo pagrindas. Rikiavimo
+algoritmai, paieškos algoritmai, grafų algoritmai ir daugelis kitų yra
+būtinos žinios kiekvienam rimtam programuotojui. Masyvai, sąrašai, medžiai,
+grafai ir maišos lentelės yra pagrindinės duomenų struktūros kurias reikia
+gerai išmanyti. Gerai suprantant algoritmus galima rašyti efektyvesnį ir
+greitesnį kodą kuris veikia net su labai dideliais duomenų kiekiais.
+
+Operacinės sistemos valdo kompiuterio išteklius ir leidžia programoms veikti.
+Linux operacinė sistema ypač populiari tarp programuotojų dėl savo lankstumo
+ir atvirumo. Daugelis serverių visame pasaulyje veikia būtent su Linux sistema.
+Windows Subsystem for Linux leidžia Windows vartotojams naudotis Linux įrankiais
+be atskiro kompiuterio ar virtualios mašinos. Komandinė eilutė yra galingas
+įrankis kuris leidžia atlikti sudėtingas operacijas greitai ir efektyviai.
+
+Tinklų programavimas leidžia programoms bendrauti tarpusavyje per internetą.
+Klientas ir serveris yra du pagrindiniai tinklo programavimo komponentai.
+HTTP protokolas yra interneto pagrindas ir jį suprasti yra labai svarbu
+kuriant žiniatinklio programas. REST architektūra šiandien yra standartinis
+būdas kurti programų sąsajas. JSON formatas naudojamas duomenims perduoti
+tarp kliento ir serverio dėl savo paprastumo ir universalumo.
+
+Kibernetinis saugumas tampa vis svarbesne sritimi skaitmeniniame pasaulyje.
+Kiekvienais metais įvyksta tūkstančiai kibernetinių atakų prieš įvairias
+organizacijas ir asmenis. Programuotojai turi žinoti pagrindinius saugumo
+principus ir vengti dažniausių klaidų. SQL injekcijos, kryžminio svetainių
+skriptavimo atakos ir buferio perpildymo klaidos yra tik keletas iš daugelio
+grėsmių su kuriomis susiduria šiuolaikinės sistemos. Reguliarus kodo auditas
+ir saugumo testavimas padeda aptikti pažeidžiamumas prieš tai kol jais
+pasinaudoja piktavaliai.
+
+Dirbtinis intelektas ir mašininis mokymasis keičia daugelį pramonės šakų.
+Neuronų tinklai sugeba atpažinti vaizdus, suprasti kalbą ir netgi kurti meną.
+Lietuvoje taip pat aktyviai vykdomi dirbtinio intelekto tyrimai ir kuriamos
+novatoriškos programos. Studentai vis dažniau renkasi specializacijas susijusias
+su duomenų mokslu ir mašininiu mokymusi. Python programavimo kalba tapo
+standartu šioje srityje dėl gausių bibliotekų ir bendruomenės palaikymo.

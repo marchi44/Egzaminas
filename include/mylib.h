@@ -10,6 +10,7 @@
 #include <vector>
 #include <sstream>
 #include <set>
+#include <unordered_set>
 
 using std::cout;
 using std::cin;
@@ -24,6 +25,7 @@ using std::getline;
 using std::vector;
 using std::istringstream;
 using std::set;
+using std::unordered_set;
 
 #include "funkcijos.h"
 
